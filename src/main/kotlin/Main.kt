@@ -2,7 +2,19 @@
 
 fun main(args : Array<String>){
 
-    longToIP(2154959208u)
+    val friends2 = arrayOf("B1", "B2")
+
+    val fTowns2 = arrayOf(arrayOf("B1", "Y1"), arrayOf("B2", "Y2"), arrayOf("B3", "Y3"), arrayOf("B4", "Y4"), arrayOf("B5", "Y5"))
+    val distTable2: MutableMap<String, Double> = HashMap()
+    distTable2["Y1"] = 50.0
+    distTable2["Y2"] = 70.0
+    distTable2["Y3"] = 90.0
+    distTable2["Y4"] = 110.0
+    distTable2["Y5"] = 150.0
+
+    println(TourTest.tour(friends2, fTowns2, distTable2))
+
+   // longToIP(2154959208u)
 
 }
 
