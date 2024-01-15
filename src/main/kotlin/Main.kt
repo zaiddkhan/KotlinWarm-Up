@@ -1,12 +1,11 @@
-import hackerrank.dayOfProgrammer
-import hackerrank.migratoryBirds
+import hackerrank.*
 import java.util.Calendar
 
 
 fun main(args : Array<String>){
 
 
-    println(dayOfProgrammer(1917))
+   println( pageCount(5,3))
 
 }
 
