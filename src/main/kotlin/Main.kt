@@ -7,7 +7,7 @@ fun main(args : Array<String>){
 
 
    println(
-           isSubsequence("aaaaaa","bbaaaa")
+           generate(5)
    )
 
 }
