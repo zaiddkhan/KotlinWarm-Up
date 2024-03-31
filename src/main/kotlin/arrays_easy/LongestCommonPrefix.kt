@@ -1,3 +1,5 @@
+package arrays_easy
+
 fun longestCommonPrefix(strs: Array<String>): String {
     if (strs.isEmpty()) {
         return ""

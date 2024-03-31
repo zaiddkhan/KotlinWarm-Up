@@ -1,4 +1,4 @@
-
+package arrays_easy
 fun sumParts(ls: IntArray): IntArray {
     if (ls.isEmpty()) {
         return intArrayOf(0)

@@ -1,3 +1,5 @@
+package codewars
+
 fun persistence(num: Int) : Int {
     var newNum = multiplyDigits(num)
     var numberOfTimes = 0

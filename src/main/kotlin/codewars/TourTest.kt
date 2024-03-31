@@ -1,4 +1,5 @@
-import kotlin.concurrent.fixedRateTimer
+package codewars
+
 import kotlin.math.pow
 import kotlin.math.sqrt
 

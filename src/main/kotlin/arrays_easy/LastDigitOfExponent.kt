@@ -1,3 +1,5 @@
+package arrays_easy
+
 import java.math.BigInteger
 
 fun lastDigit(base: BigInteger, exponent: BigInteger): Int {

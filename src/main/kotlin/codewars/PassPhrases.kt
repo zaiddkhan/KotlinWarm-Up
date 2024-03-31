@@ -1,4 +1,4 @@
-
+package codewars
 object PlayPass {
 
     fun playPass(s: String, n: Int) {

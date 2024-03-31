@@ -1,3 +1,5 @@
+package codewars
+
 object EnoughIsEnough {
     fun deleteNth(elements:IntArray, maxOcurrences:Int):IntArray {
         val ansList = mutableListOf<Int>()

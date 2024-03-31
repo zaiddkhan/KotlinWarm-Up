@@ -1,4 +1,4 @@
-
+package arrays_easy
 
 fun isValid(s : String) : Boolean {
     var count = 0

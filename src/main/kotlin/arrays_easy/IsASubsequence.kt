@@ -1,4 +1,4 @@
-
+package arrays_easy
 
 fun isSubsequence(s: String, t: String): Boolean {
     var sIndex = 0

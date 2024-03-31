@@ -1,5 +1,4 @@
-import kotlin.math.abs
-import kotlin.math.min
+package codewars
 
 fun searchInsert(nums: IntArray, target: Int): Int {
         var start = 0

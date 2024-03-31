@@ -1,4 +1,4 @@
-
+package codewars
 fun race(v1:Int, v2:Int, g:Int) {
 
     val relativeSpeed = v2.toFloat()-v1.toFloat()

@@ -1,4 +1,4 @@
-
+package codewars
 
 fun decodeMorse(code: String): String {
 

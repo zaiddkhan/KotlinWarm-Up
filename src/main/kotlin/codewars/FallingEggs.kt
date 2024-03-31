@@ -1,3 +1,5 @@
+package codewars
+
 import java.math.BigInteger
 
 fun height(n: BigInteger, m: BigInteger): BigInteger {

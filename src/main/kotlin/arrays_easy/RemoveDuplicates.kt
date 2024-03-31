@@ -1,3 +1,5 @@
+package arrays_easy
+
 fun removeDuplicates(nums: IntArray): Int {
     nums.distinct()
     var lastIndex = -1

@@ -1,4 +1,4 @@
-
+package arrays_easy
 fun groupAnagrams(strs: Array<String>): List<List<String>> {
     val res : HashMap<String,MutableList<String>> = HashMap()
     for(s in strs){

@@ -1,3 +1,5 @@
+package codewars
+
 import kotlin.math.sqrt
 
 

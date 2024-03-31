@@ -1,3 +1,5 @@
+package codewars
+
 import kotlin.math.pow
 
 fun longToIP(ip : UInt){

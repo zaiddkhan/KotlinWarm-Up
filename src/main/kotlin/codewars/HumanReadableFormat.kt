@@ -1,4 +1,4 @@
-
+package codewars
 fun formatDuration(seconds: Int): String {
     if (seconds == 0) {
         return "now"

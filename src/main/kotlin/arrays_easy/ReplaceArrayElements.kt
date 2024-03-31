@@ -1,4 +1,4 @@
-
+package arrays_easy
 
     fun replaceElements(arr: IntArray): IntArray {
         arr.forEachIndexed { index, i ->

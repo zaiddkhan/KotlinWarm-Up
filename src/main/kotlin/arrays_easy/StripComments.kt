@@ -1,4 +1,4 @@
-
+package arrays_easy
 
 fun solution(input: String, markers: CharArray): String {
 

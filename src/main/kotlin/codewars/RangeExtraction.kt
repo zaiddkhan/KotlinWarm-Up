@@ -1,3 +1,5 @@
+package codewars
+
 import java.lang.StringBuilder
 
 fun rangeExtraction(arr: IntArray): String {

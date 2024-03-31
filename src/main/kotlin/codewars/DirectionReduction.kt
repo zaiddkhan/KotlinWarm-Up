@@ -1,4 +1,4 @@
-
+package codewars
 
 object DirectionReduction {
     fun dirReduction(arr : Array<String>)  {
