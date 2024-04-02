@@ -1,6 +1,4 @@
-import arrays_easy.convertMailIntoProperFormat
-import arrays_easy.isIsomorphic
-import arrays_easy.numUniqueEmails
+import arrays_easy.*
 import hackerrank.*
 import java.util.Calendar
 
@@ -10,9 +8,9 @@ fun main(args : Array<String>){
 
 
    println(
-           isIsomorphic(
-                   "paper","title"
-           )
+           nextGreaterElement(
+intArrayOf(4,1,2), intArrayOf(1,3,4,2)
+           ).toList()
    )
 
 }
