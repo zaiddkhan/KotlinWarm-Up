@@ -1,29 +1,29 @@
 package arrays_easy
 
-//fun nextGreaterElement(nums1: IntArray, nums2: IntArray): IntArray {
-//    val res = mutableListOf<Int>()
-//    nums1.forEach {num ->
-//        nums2.find {
-//            it == num
-//        }?.let {
-//            val index = nums2.indexOf(it)
-//            if(index == nums2.size-1) res.add(-1) else {
-//               var max = 0
-//                for( i in index until nums2.size){
-//                    if(nums2[i] > it){
-//                        max = nums2[i]
-//                        break
-//                    }
-//                }
-//                if(max > it){
-//                    res.add(max)
-//                }else res.add(-1)
-//            }
-//
-//        }
-//    }
-//    return res.toIntArray()
-//}
+fun nextGreaterElement(nums1: IntArray, nums2: IntArray): IntArray {
+    val res = mutableListOf<Int>()
+    nums1.forEach {num ->
+        nums2.find {
+            it == num
+        }?.let {
+            val index = nums2.indexOf(it)
+            if(index == nums2.size-1) res.add(-1) else {
+               var max = 0
+                for( i in index until nums2.size){
+                    if(nums2[i] > it){
+                        max = nums2[i]
+                        break
+                    }
+                }
+                if(max > it){
+                    res.add(max)
+                }else res.add(-1)
+            }
+
+        }
+    }
+    return res.toIntArray()
+}
 
 //stack alternative
 //fun nextGreaterElement(nums1: IntArray, nums2: IntArray): IntArray {

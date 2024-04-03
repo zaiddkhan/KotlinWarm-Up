@@ -8,9 +8,9 @@ fun main(args : Array<String>){
 
 
    println(
-           nextGreaterElement(
-intArrayOf(4,1,2), intArrayOf(1,3,4,2)
-           ).toList()
+           pivotIndex(
+                   intArrayOf(1,2,3)
+           )
    )
 
 }
