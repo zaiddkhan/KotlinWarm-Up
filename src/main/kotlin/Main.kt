@@ -8,8 +8,8 @@ fun main(args : Array<String>){
 
 
    println(
-           pivotIndex(
-                   intArrayOf(1,2,3)
+           maxNumberOfBalloons(
+                   "loonbalxballpoon"
            )
    )
 
