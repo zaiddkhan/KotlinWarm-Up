@@ -1,4 +1,5 @@
 import arrays_easy.*
+import arrays_medium.topKFrequent
 import hackerrank.*
 import java.util.Calendar
 
@@ -7,7 +8,7 @@ fun main(args : Array<String>){
 
 
     println(
-            sortArray(intArrayOf(90,43,55,34,12,1,0,98)).toList()
+            topKFrequent(intArrayOf(4,1,-1,2,-1,2,3),2).toList()
     )
 
 }
