@@ -18,10 +18,6 @@ fun topKFrequent(nums: IntArray, k: Int): IntArray {
 //alternate better solution
 
 
-fun main() {
-    val nums = intArrayOf(1, 1, 1, 1, 2, 2, 3)
-}
-
 //fun topKFrequent(nums: IntArray, k: Int): IntArray {
 //    val res = mutableListOf<Int>()
 //
