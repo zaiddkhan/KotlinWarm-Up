@@ -1,4 +1,5 @@
 import arrays_easy.*
+import arrays_medium.isValidSudoku
 import arrays_medium.productExceptSelf
 import arrays_medium.topKFrequent
 import hackerrank.*
@@ -9,7 +10,19 @@ fun main(args : Array<String>){
 
 
     println(
-            productExceptSelf(intArrayOf(-1,1,0,-3,3)).toList()
+            isValidSudoku(
+                    arrayOf(
+                            charArrayOf('.', '.', '.', '2', '.', '.', '.', '.', '.'),
+                            charArrayOf('.', '.', '.', '.', '.', '.', '.', '.', '4'),
+                            charArrayOf('.', '.', '.', '8', '.', '.', '.', '.', '.'),
+                            charArrayOf('.', '4', '.', '.', '.', '.', '.', '.', '8'),
+                            charArrayOf('8', '.', '1', '.', '.', '.', '.', '.', '.'),
+                            charArrayOf('5', '.', '.', '.', '.', '.', '.', '.', '.'),
+                            charArrayOf('.', '.', '2', '.', '.', '.', '.', '.', '.'),
+                            charArrayOf('.', '.', '.', '.', '.', '.', '.', '5', '.'),
+                            charArrayOf('.', '.', '.', '.', '.', '.', '.', '.', '.')
+                    )
+            )
     )
 
 }
