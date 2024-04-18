@@ -1,20 +1,17 @@
 import arrays_easy.*
-import arrays_medium.isValidSudoku
-import arrays_medium.longestConsecutive
-import arrays_medium.productExceptSelf
-import arrays_medium.topKFrequent
+import arrays_medium.*
 import hackerrank.*
 import java.util.Calendar
 
 
 fun main(args : Array<String>){
 
+    val codec = Codec()
 
-    println(
-            longestConsecutive(
-                    intArrayOf(1,2,0,1)
-            )
-    )
+    val encoded = codec.encode("https://leetcode.com/problems/design-tinyurl")
+    val decode = codec.decode(encoded)
+    println(decode)
+
 
 }
 
