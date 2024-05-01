@@ -7,7 +7,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(maxProfit(intArrayOf(7,6,4,3,1)))
+    println(subarraySum(intArrayOf(1,1,1),2))
 
 
 }
