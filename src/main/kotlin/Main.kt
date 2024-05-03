@@ -7,7 +7,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(subarraySum(intArrayOf(1,1,1),2))
+    println(minSwaps("]]][[["))
 
 
 }
