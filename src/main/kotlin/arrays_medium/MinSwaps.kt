@@ -1,28 +1,20 @@
 package arrays_medium
 
+import java.util.*
+
 
 fun minSwaps(s: String): Int {
-
-    val stack = ArrayDeque<Char>()
-    s.forEach {
-        if(it == ']' &&  stack.size >= 1 && stack.last() == '[')
-            stack.removeLast()
-        else
-            stack.addLast(it)
-    }
-    if(stack.isEmpty()){
-        return  0
-    }
-    var iters = 0
-    while(stack.isNotEmpty()){
-        if(stack[0] == ']' && stack.contains('[')){
-            stack.remove('[')
-            stack.remove(']')
-            iters++
+    val stack = Stack<Char>()
+    var mismatches = 0
+    for(c in s){
+        if(c == ']')
+            if(!stack.isEmpty())
+                stack.pop()
+            else
+                mismatches++
+        else{
+            stack.push(c)
         }
     }
-
-
-    println(stack.toString())
-    return iters
+    return (mismatches + 1) / 2
 }
