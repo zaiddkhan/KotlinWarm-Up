@@ -7,7 +7,15 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(minSwaps("]]][[["))
+    println(interchangeableRectangles(
+            arrayOf(
+                    intArrayOf(4,5),
+                    intArrayOf(7,8),
+//                    intArrayOf(10,20),
+//                    intArrayOf(15,30)
+            )
+    )
+    )
 
 
 }
