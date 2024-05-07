@@ -1,5 +1,6 @@
 import arrays_easy.*
 import arrays_medium.*
+import codewars.chooseBestSum
 import hackerrank.*
 import java.util.Calendar
 
@@ -7,14 +8,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(interchangeableRectangles(
-            arrayOf(
-                    intArrayOf(4,5),
-                    intArrayOf(7,8),
-//                    intArrayOf(10,20),
-//                    intArrayOf(15,30)
-            )
-    )
+    println(chooseBestSum(331,5, listOf(91, 74, 73, 85, 73, 81, 87))
     )
 
 
