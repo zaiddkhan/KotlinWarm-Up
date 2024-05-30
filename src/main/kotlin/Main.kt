@@ -11,12 +11,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(canSum(300, listOf(7,14), mutableMapOf()))
-
-    println(findAnagrams("abab","ab"))
-
-    //println(chooseBestSum(331,5, listOf(91, 74, 73, 85, 73, 81, 87)))
-
+    println(strStr("leetcode","leeto"))
 
 }
 
