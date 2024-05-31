@@ -11,8 +11,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(strStr("leetcode","leeto"))
-
+    println(largestNumber(intArrayOf(1,2,3)))
 }
 
 
