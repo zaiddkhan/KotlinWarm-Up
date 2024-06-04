@@ -10,7 +10,7 @@ import java.util.Calendar
 
 fun main(args : Array<String>){
 
-    println(getRow(3))
+    println(countCharacters(arrayOf("cat","bt","hat","tree"),"atach"))
 }
 
 
