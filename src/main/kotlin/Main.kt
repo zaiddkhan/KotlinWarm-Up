@@ -11,7 +11,11 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(largestGoodInteger("2300019"))
+    println(destCity(listOf(
+            listOf("A","Z"),
+//            listOf("D","B"),
+//            listOf("C","A")
+    )))
 }
 
 
