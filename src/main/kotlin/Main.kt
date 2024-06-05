@@ -10,7 +10,8 @@ import java.util.Calendar
 
 fun main(args : Array<String>){
 
-    println(countCharacters(arrayOf("cat","bt","hat","tree"),"atach"))
+
+    println(largestGoodInteger("2300019"))
 }
 
 
