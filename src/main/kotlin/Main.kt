@@ -11,11 +11,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(destCity(listOf(
-            listOf("A","Z"),
-//            listOf("D","B"),
-//            listOf("C","A")
-    )))
+    println(maxProductDifference(intArrayOf(5,6,2,7,4)))
 }
 
 
