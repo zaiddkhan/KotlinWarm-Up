@@ -11,7 +11,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(maxProductDifference(intArrayOf(5,6,2,7,4)))
+    println(maxScore("011101"))
 }
 
 
