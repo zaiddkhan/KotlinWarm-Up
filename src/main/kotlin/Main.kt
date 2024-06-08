@@ -11,7 +11,7 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(maxScore("011101"))
+    println(minOperations("10010100"))
 }
 
 
