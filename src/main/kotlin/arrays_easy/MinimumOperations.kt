@@ -1,25 +1,32 @@
 package arrays_easy
 
+import kotlin.math.min
+
 
 fun minOperations(s: String): Int {
-    var expected = ""
-    var res = 0
-    s.forEach {
-        if(expected.isEmpty()){
-            if(it == '1')
-                expected = "0"
-            else expected = "1"
+    val zeroOne = mutableListOf<String>()
+    val oneZero = mutableListOf<String>()
+
+    s.forEachIndexed { index, c ->
+        if(index % 2==0){
+            zeroOne.add("0")
+            oneZero.add("1")
         }else{
-            if(it.toString() != expected){
-                res++
-                expected = it.toString()
-            }else{
-                if(it == '1')
-                    expected = "0"
-                else expected = "1"
-            }
+            zeroOne.add("1")
+            oneZero.add("0")
+        }
+
+    }
+    var diffOne = 0
+    var diffTwo = 0
+    s.forEachIndexed { index,it ->
+        if(zeroOne[index] != it.toString()){
+            diffOne++
+        }
+        if(oneZero[index] != it.toString()){
+            diffTwo++
         }
     }
+    return min(diffTwo,diffOne)
 
-    return res
 }

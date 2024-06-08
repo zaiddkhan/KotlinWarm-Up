@@ -11,7 +11,10 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(minOperations("10010100"))
+    println(makeEqual(arrayOf("caaaaa","aaaaaaaaa","a","bbb","bbbbbbbbb","bbb","cc","cccccccccccc","ccccccc","ccccccc","cc","cccc","c","cccccccc","c")))
+    println(makeEqual(arrayOf("bc","de")))
+    println(makeEqual(arrayOf("abc","aabc","bc")))
+    println(makeEqual(arrayOf("ab","a")))
 }
 
 
