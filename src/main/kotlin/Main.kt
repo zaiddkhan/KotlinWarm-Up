@@ -9,9 +9,10 @@ import java.util.Calendar
 
 
 fun main(args : Array<String>){
-
-
-    println(maxLengthBetweenEqualCharacters("ojdncpvyneq"))
+    println(intersection(
+            intArrayOf(1,2,2,1),
+            intArrayOf(2,2)
+    ).toList())
 }
 
 
