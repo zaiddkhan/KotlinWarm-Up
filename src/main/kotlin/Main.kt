@@ -9,9 +9,8 @@ import java.util.Calendar
 
 
 fun main(args : Array<String>){
-    println(countStudents(
-            intArrayOf(1,1,1,0,0,1),
-            intArrayOf(1,0,0,0,1,1)
+    println(timeRequiredToBuy(
+            intArrayOf(84,49,5,24,70,77,87,8),3
     ))
 }
 
