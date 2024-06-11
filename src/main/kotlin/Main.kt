@@ -9,10 +9,10 @@ import java.util.Calendar
 
 
 fun main(args : Array<String>){
-    println(intersection(
-            intArrayOf(1,2,2,1),
-            intArrayOf(2,2)
-    ).toList())
+    println(countStudents(
+            intArrayOf(1,1,1,0,0,1),
+            intArrayOf(1,0,0,0,1,1)
+    ))
 }
 
 
