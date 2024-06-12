@@ -9,9 +9,9 @@ import java.util.Calendar
 
 
 fun main(args : Array<String>){
-    println(timeRequiredToBuy(
-            intArrayOf(84,49,5,24,70,77,87,8),3
-    ))
+
+    println(specialArray(intArrayOf(0,4,3,0,4)))
+
 }
 
 
