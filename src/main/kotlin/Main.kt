@@ -10,7 +10,7 @@ import java.util.Calendar
 
 fun main(args : Array<String>){
 
-    println(checkSubarraySum(intArrayOf(2,4,3),6))
+    println(pushDominoes(".L.R...LR..L.."))
 
 }
 
