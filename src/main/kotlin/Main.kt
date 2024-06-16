@@ -10,7 +10,7 @@ import java.util.Calendar
 
 fun main(args : Array<String>){
 
-    println(pushDominoes(".L.R...LR..L.."))
+    println(findRepeatedDnaSequences("AAAAAAAAAAA"))
 
 }
 
