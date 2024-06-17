@@ -10,7 +10,7 @@ import java.util.Calendar
 
 fun main(args : Array<String>){
 
-    println(findRepeatedDnaSequences("AAAAAAAAAAA"))
+    println(hasAllCodes("0110",2))
 
 }
 
