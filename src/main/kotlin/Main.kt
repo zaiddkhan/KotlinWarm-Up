@@ -11,7 +11,8 @@ import java.util.Calendar
 fun main(args : Array<String>){
 
 
-    println(checkPossibility(intArrayOf(-1,4,2,3    )))
+    println(arraySign(intArrayOf(9,72,34,29,-49,-22,-77,-17,-66,-75,-44,-30,-24)))
+  //  println(checkPossibility(intArrayOf(-1,4,2,3    )))
 
 }
 
