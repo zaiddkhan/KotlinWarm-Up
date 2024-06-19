@@ -1,17 +1,17 @@
-import arrays_easy.*
 import arrays_medium.*
-import codewars.chooseBestSum
-import hackerrank.*
-import memoizations.canSum
-import memoizations.getFib
-import memoizations.gridTraveller
-import java.util.Calendar
+
 
 
 fun main(args : Array<String>){
 
 
-    println(arraySign(intArrayOf(9,72,34,29,-49,-22,-77,-17,-66,-75,-44,-30,-24)))
+//    println(validSquare(
+//            intArrayOf(1134,-2539),
+//            intArrayOf(492,-1255),
+//            intArrayOf(-792,-1897),
+//            intArrayOf(-150,-3181)
+//    ))
+    println(calcDistance(1134,-2539,492,-1255))
   //  println(checkPossibility(intArrayOf(-1,4,2,3    )))
 
 }
