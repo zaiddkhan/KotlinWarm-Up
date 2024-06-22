@@ -28,4 +28,3 @@ fun maxSatisfied(customers: IntArray, grumpy: IntArray, minutes: Int): Int {
         grumpy[index] == 0
     }.sum() + max
 }
-}
