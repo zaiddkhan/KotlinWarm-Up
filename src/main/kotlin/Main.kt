@@ -5,7 +5,7 @@ import arrays_medium.*
 
 fun main(args : Array<String>){
 
-    println(bestClosingTime("YYNY"))
+    println(champagneTower(4,0,0))
 }
 
 
