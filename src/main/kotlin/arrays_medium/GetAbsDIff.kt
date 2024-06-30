@@ -5,6 +5,7 @@ import kotlin.math.abs
 fun getSumAbsoluteDifferences(nums: IntArray): IntArray {
     val prefix = MutableList(nums.size) { 0 }
     val res = mutableListOf<Int>()
+
     prefix[0] = nums[0]
     for(i in 1 until nums.size){
         prefix[i] = prefix[i-1] + nums[i]
