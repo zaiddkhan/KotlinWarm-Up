@@ -5,7 +5,7 @@ import arrays_medium.*
 
 fun main(args : Array<String>){
 
-    println(champagneTower(4,0,0))
+    println(divideArray(intArrayOf(1,3,4,8,7,9,3,5,1),2))
 }
 
 
