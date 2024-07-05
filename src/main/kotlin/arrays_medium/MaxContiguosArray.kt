@@ -17,13 +17,13 @@ fun findMaxLength(nums: IntArray): Int {
             numOne++
         }
         if(mapp[numOne - numZero] == null){
-            mapp[numOne - numZero] = i
+            mapp[numOne - numZero] = index
         }
         if(numZero == numOne){
             max = numZero + numOne
         }else{
-            val index = mapp[numOne-numZero]!!
-            max = maxOf(max,i-index)
+            val index2 = mapp[numOne-numZero]!!
+            max = maxOf(max,index-index2)
         }
 
     }
