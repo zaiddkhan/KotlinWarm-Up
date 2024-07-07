@@ -1,11 +1,17 @@
 import arrays_easy.maxSatisfied
+import arrays_hard.fullJustify
 import arrays_medium.*
 
 
 
 fun main(args : Array<String>){
 
-    println(divideArray(intArrayOf(1,3,4,8,7,9,3,5,1),2))
+    println(fullJustify(
+        arrayOf(
+            "Listen","to","many,","speak","to","a","few."
+        ),
+        6
+    ))
 }
 
 
