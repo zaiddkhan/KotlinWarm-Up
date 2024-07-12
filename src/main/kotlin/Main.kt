@@ -3,17 +3,13 @@ import arrays_hard.distinctNames
 import arrays_hard.fullJustify
 import arrays_hard.numSubmatrixSumTarget
 import arrays_medium.*
-
+import two_pointers_easy.isPalindrome2
 
 
 fun main(args : Array<String>){
 
-   println(numSubmatrixSumTarget(
-        arrayOf(
-            intArrayOf(1,-1),
-            intArrayOf(-1,1)
-        ),
-       0
+   println(isPalindrome2(
+       "abcdddccba"
    ))
 }
 
