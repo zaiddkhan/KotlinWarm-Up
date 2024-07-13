@@ -6,7 +6,7 @@ fun isPalindrome2(s: String): Boolean {
     val num = s.lowercase().replace("[^\\w]".toRegex(), "")
 
     var r = num.length - 1
-    while (l <= r) {
+        while (l <= r) {
         val char1 = num[l]
         val char2 = num[r]
         if (char1 != char2) {
