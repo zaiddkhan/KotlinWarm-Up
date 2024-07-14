@@ -1,19 +1,17 @@
-import arrays_easy.maxSatisfied
-import arrays_hard.distinctNames
-import arrays_hard.fullJustify
-import arrays_hard.numSubmatrixSumTarget
-import arrays_medium.*
-import two_pointers_easy.isPalindrome2
-import two_pointers_easy.minimumDifference
+import memoizations.gridTraveller
+import two_pointers_easy.merge
+import two_pointers_easy.mergeAlternately
 
 
 fun main(args : Array<String>){
 
-   println(
-       minimumDifference(
-       intArrayOf(9,4,1,7),2
-   )
-   )
+   println(merge(
+       intArrayOf(1,2,3,0,0,0),
+       3,
+       intArrayOf(2,5,6),
+       3
+
+   ))
 }
 
 
