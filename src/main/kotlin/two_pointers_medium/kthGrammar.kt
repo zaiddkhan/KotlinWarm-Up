@@ -8,7 +8,7 @@ fun kthGrammar(n: Int, k: Int): Int {
     var left = 0
     var curr = 0
     var mid = 0
-    for( i in 1..n-1){
+    repeat(n){
         mid = (left + right) / 2
         if(k <= mid){
             right = mid
