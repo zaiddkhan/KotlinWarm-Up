@@ -1,6 +1,4 @@
-package arrays_medium.bs_hard
-
-import sliding_window_medium.minSubArrayLen
+package bs_hard
 
 fun splitArray(nums : IntArray,k : Int) : Int {
     var l = nums.max()
