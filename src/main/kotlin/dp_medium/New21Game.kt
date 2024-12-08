@@ -1,22 +1,24 @@
 package dp_medium
 
 fun new21Game(n: Int, k: Int, maxPts: Int): Double {
-    if(k == 0 ) return 1.0
-    var window = 0.0
-    for(i in k..k+maxPts){
-        window += if(i <= n) 1 else 0
+    if (k == 0 || n >= k + maxPts - 1) return 1.0
 
-    }
+    val dp = DoubleArray(n + 1)
+    dp[0] = 1.0
+    var windowSum = 1.0
+    var result = 0.0
 
-    val cache = mutableMapOf<Int, Double>()
-    for(i in k-1 downTo 0){
-        cache[i] = window / maxPts
-        var remove = 0.0
-        if(i + maxPts <= n){
-            remove = cache.getOrDefault(i+maxPts,1.0)
+    for (i in 1..n) {
+        dp[i] = windowSum / maxPts
+        if (i < k) {
+            windowSum += dp[i]
+        } else {
+            result += dp[i]
         }
-        window += cache[i]!! - remove
-
+        if (i >= maxPts) {
+            windowSum -= dp[i - maxPts]
+        }
     }
-    return cache[0]!!
+
+    return result
 }
